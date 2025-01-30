@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 using System.Drawing;
 using System.Drawing.Drawing2D;  // to add reference : right-click project -> Add -> Reference -> Assemblies ... and select System.Drawing
-
+using System.Drawing.Imaging;
 
 //
 // Microsoft.ML.Transforms
@@ -64,11 +64,11 @@ using Microsoft.ML.Transforms.Onnx;  //OnnxOptions, OnnxScoringEstimator, OnnxTr
 //
 using System.Numerics.Tensors;
 
+using Tensorflow.Operations.Activation;
 
 // our libs
 using SimpleUtils;
-using Tensorflow.Operations.Activation;
-using System.Drawing.Imaging;
+
 
 
 namespace MachineVision
